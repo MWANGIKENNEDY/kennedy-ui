@@ -1,7 +1,8 @@
 import Footer from '@/components/footers/footer'
 import Navbar from '@/components/navbar'
 import React from 'react'
-import SimpleAnnouncement from './components/announcements/simpleAnnouncement'
+import SimpleAnnouncement from '../dashboard/components/announcements/simpleAnnouncement'
+
 
 
 type Props ={
