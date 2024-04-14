@@ -1,12 +1,5 @@
-import LoginForm from "@/components/loginForm";
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <main className="">
-
-      <LoginForm/>
-
-    </main>
-  );
+export default async function App() {
+  return redirect("/home");
 }
